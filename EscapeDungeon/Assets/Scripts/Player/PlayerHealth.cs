@@ -30,5 +30,10 @@ public class PlayerHealth : MonoBehaviour
     private void Update()
     {
         healthBar.fillAmount = Mathf.Clamp(currentHealth/maxHealth,0,1);           // Setting the image fill amount to 0 to 1
+        
+        if(currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
