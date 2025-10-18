@@ -3212,6 +3212,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animated PBR Chest _Wood_Demo
       objectReference: {fileID: 0}
+    - target: {fileID: 6585602287162436748, guid: 1083f87f08232f541942f4a22a00127e, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 7636907091708202914}
+    - target: {fileID: 6585602287162436748, guid: 1083f87f08232f541942f4a22a00127e, type: 3}
+      propertyPath: duration
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3220,5 +3228,10 @@ PrefabInstance:
 --- !u!4 &7636907091700686914 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6200720779110778461, guid: 1083f87f08232f541942f4a22a00127e, type: 3}
+  m_PrefabInstance: {fileID: 4609113417594381855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7636907091708202914 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6200720779120667069, guid: 1083f87f08232f541942f4a22a00127e, type: 3}
   m_PrefabInstance: {fileID: 4609113417594381855}
   m_PrefabAsset: {fileID: 0}
