@@ -13,6 +13,6 @@ public class RoomBehaviour : MonoBehaviour
         {
             doors[i].SetActive(status[i]);
             walls[i].SetActive(!status[i]);
-        }    
+        }
     }
 }

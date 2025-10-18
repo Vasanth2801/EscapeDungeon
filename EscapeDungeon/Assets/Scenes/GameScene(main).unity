@@ -1038,9 +1038,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9568087bd8e660941928e09d76edd3d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DungeonGenerator
-  room: {fileID: 3553668401582350368, guid: 4d2e12756a4d16848ae8131174f11f7c, type: 3}
-  size: {x: 3, y: 3}
+  size: {x: 6, y: 6}
   startPos: 0
+  rooms:
+  - room: {fileID: 3553668401582350368, guid: db98e3df14f37f249bae1fb79412eb54, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 9, y: 9}
+    obligatory: 0
+  - room: {fileID: 3553668401582350368, guid: 4d2e12756a4d16848ae8131174f11f7c, type: 3}
+    minPosition: {x: 2, y: 3}
+    maxPosition: {x: 9, y: 8}
+    obligatory: 0
+  - room: {fileID: 3553668401582350368, guid: 33b3257257716654391666f98532c205, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 4, y: 2}
+    obligatory: 0
   offset: {x: 7.8, y: 7.8}
 --- !u!1 &1461918666
 GameObject:
